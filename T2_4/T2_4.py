@@ -4,6 +4,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 
 
+
 def exam_data_load(df, target, id_name="", null_name=""):
     if id_name == "":
         df = df.reset_index().rename(columns={"index": "id"})
