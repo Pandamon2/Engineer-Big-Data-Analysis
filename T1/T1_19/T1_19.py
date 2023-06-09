@@ -19,7 +19,6 @@ def event_sale(x):
 
     return x
 
-
 df = df.apply(lambda x: event_sale(x), axis = 1)
 df.head()
 
